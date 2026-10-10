@@ -27,7 +27,7 @@ jobs:
           gradle-version: '8.7'
           cache-disabled: true
 
-      - name: Build with Gradle
+      - name: Build APK
         run: gradle assembleDebug --stacktrace --info
 
       - name: Upload Build Reports

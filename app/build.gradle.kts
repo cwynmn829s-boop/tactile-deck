@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.tactiledeck.app"
+    namespace = "com.tactiledeck"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.tactiledeck.app"
+        applicationId = "com.tactiledeck"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
